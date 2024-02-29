@@ -30,3 +30,45 @@
 	5. **Evolutionary Approach**
 6. When did AI start?
 	1. during the mid 20th century
+
+## Symbolic AI
+## Symbolic AI
+
+- What is the **top-down approach**?
+	- It is an approach where you **extract knowledge from people into some machine-readable form** and use it automatically to **solve problems**
+- What are two big main ideas for top-down approach?
+	- knowledge representation
+	- reasoning
+- What is **knowledge**, and how is it different from **information**?
+	- Knowledge is something contained in our head, representing our understanding of the world
+	- We can obtain knowledge through **active learning process**
+	- It is different from **information/data** because we turn the information that we received into our active model of the world
+- What is **DIKW Pyramid**?
+	- Data << Information << Knowledge << Wisdom (left <- right; higher order)
+- What is the **main goal of knowledge representation**?
+	- finding some effective way to represent knowledge inside a computer in the form of data, to make it automatically usable
+- How can we **classify knowledge representation**?
+	- **semantic network**
+		- network of interrelated concepts in our head = graph inside a computer
+		- object-attribute-value triplets / attribute-value pairs (as node)
+	- **hierarchical representation**
+		- frame representation
+			- representing each object / class of objects as a frame which contains slots
+			- slot
+				- have possible default values, value restrictions, stored procedures
+			- frame
+				- form a hierarchy
+			- scenario
+				- special kind of frames that represent complex situations that can unfold in time
+	- **procedural representation**
+		- a list of actions that can be executed when a certain condition occurs
+		- examples
+			- production rules
+				- if-then statements
+			- algorithm
+	- **logic**
+		- examples
+			- predicate logic
+				- statements whose truth value depends on one or more variables from any set
+			- descriptive logic
+				- empty, intersection, union, negation
