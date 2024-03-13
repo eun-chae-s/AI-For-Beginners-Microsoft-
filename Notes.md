@@ -32,8 +32,6 @@
 
 ## Symbolic AI
 
-## Symbolic AI
-
 - What is the **top-down approach**?
   - It is an approach where you **extract knowledge from people into some machine-readable form** and use it automatically to **solve problems**
 - What are two big main ideas for top-down approach?
